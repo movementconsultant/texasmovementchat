@@ -1,0 +1,67 @@
+{
+  "greeting": "Hello! I'm the Texas Movement assistant. I can answer questions about our web design, AI workflow consulting, and how to get started. What can I help you with?",
+  "suggestedQuestions": [
+    "What services do you offer?",
+    "What is your stance on using AI?",
+    "How do I start a project?",
+    "What are your pricing and service areas?"
+  ],
+  "entries": [
+    {
+      "id": "services",
+      "topic": "Services Offered",
+      "keywords": ["services", "offer", "build", "design", "consulting", "workflows", "website"],
+      "synonyms": ["what do you do", "web design", "ai automation"],
+      "answer": "We provide three core services for independent professionals:<br>1. <strong>Durable Website Building:</strong> Sites you fully own and control, with no lock-in fees.<br>2. <strong>Consulting & Strategy:</strong> Honest diagnosis of your digital needs.<br>3. <strong>AI Workflow Design:</strong> Deliberate automation for intake, follow-up, and systems documentation, always with human review.<br><a href='https://texasmovement.com/' target='_blank' rel='noopener'>Learn more on our homepage</a>.",
+      "source": "https://texasmovement.com/"
+    },
+    {
+      "id": "ai-stance",
+      "topic": "AI Stance and Policy",
+      "keywords": ["ai", "artificial intelligence", "stance", "policy", "automate", "replace"],
+      "synonyms": ["will ai replace me", "do you use ai", "chatbot"],
+      "answer": "Our stance is simple: <strong>AI is a tool. Judgment is yours.</strong> We use AI deliberately as leverage (e.g., for first-pass content drafting or intake automation), but never as a substitute for your voice or credibility. No AI chatbot will pose as you, and no generated content ships without your explicit approval.",
+      "source": "https://texasmovement.com/"
+    },
+    {
+      "id": "start-project",
+      "topic": "Starting a Project",
+      "keywords": ["start", "begin", "contact", "hire", "quote", "project", "reach"],
+      "synonyms": ["how to hire you", "get a quote", "talk to alex"],
+      "answer": "You can start a project by using the <strong>contact form</strong> on our website. Tell us what you're trying to fix or make, and select your area of interest (Website, Consulting, AI Workflow, or Not Sure Yet). Founder Alexander Mathai reads every request personally and replies within one business day with next steps.",
+      "source": "https://texasmovement.com/"
+    },
+    {
+      "id": "founder",
+      "topic": "About the Founder",
+      "keywords": ["founder", "alex", "alexander", "mathai", "who", "background"],
+      "synonyms": ["who runs this", "alexander mathai"],
+      "answer": "Texas Movement International was founded by <strong>Alexander Mathai</strong>. He is an engineer by training with a background in civil/structural engineering and systems design. He started this company to help small business owners avoid agency dependency and unreliable 'set-and-forget' AI tools.",
+      "source": "https://texasmovement.com/"
+    },
+    {
+      "id": "pricing",
+      "topic": "Pricing and Service Areas",
+      "keywords": ["price", "pricing", "cost", "how much", "location", "area", "remote"],
+      "synonyms": ["rates", "fees", "where are you located"],
+      "answer": "We do not publish fixed pricing, as every project is scoped based on your specific needs. We work with a small number of clients at a time to ensure dedicated attention. Services are delivered digitally, so we work with independent professionals regardless of geographic location. <a href='https://texasmovement.com/' target='_blank' rel='noopener'>Request a custom quote via our contact form</a>.",
+      "source": "https://texasmovement.com/"
+    },
+    {
+      "id": "contact-info",
+      "topic": "Contact Information",
+      "keywords": ["email", "phone", "address", "contact", "reach"],
+      "synonyms": ["phone number", "email address"],
+      "answer": "The primary and fastest way to reach us is through the <a href='https://texasmovement.com/' target='_blank' rel='noopener'>website contact form</a>. <br><em>Note: Public directories list alternate contact methods (e.g., lexmathai@gmail.com or 872-210-2505), but the web form is the official, monitored channel for project inquiries.</em>",
+      "source": "https://texasmovement.com/"
+    },
+    {
+      "id": "fallback",
+      "topic": "Fallback / Unsupported",
+      "keywords": [], 
+      "synonyms": [],
+      "answer": "I don't have specific information on that in my knowledge base. To ensure you get an accurate answer, please <a href='https://texasmovement.com/' target='_blank' rel='noopener'>send a message via our contact form</a>, and Alexander will respond personally within one business day.",
+      "source": "https://texasmovement.com/"
+    }
+  ]
+}

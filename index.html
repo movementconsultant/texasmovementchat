@@ -3,12 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Texas Movement Chatbot</title>
-<link rel="stylesheet" href="chatbot.css">
+<title>Texas Movement International</title>
+<meta name="description" content="The parent organization behind focused ventures in professional services, physical performance, media, footwear, and community.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script src="knowledge.js"></script>
-<script src="chatbot.js"></script>
-  <script src="/assets/chatbot/chatbot.js" defer></script>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">Texas Movement Int.</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="active">Businesses</a>
+      <a href="#about">About</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="section surface">
+    <div class="container">
+      <p class="eyebrow">Texas Movement International</p>
+      <h1 class="display section-title">Distinct businesses.<br>Shared standards.</h1>
+      <p class="lead">The parent organization behind focused ventures in professional services, physical performance, media, footwear, and community. Each with a clear purpose and its own audience.</p>
+      <div class="actions">
+        <a href="#businesses" class="btn">Explore the Businesses</a>
+        <a href="#about" class="btn secondary">About the Organization</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSINESSES -->
+  <section id="businesses" class="section">
+    <div class="container">
+      <p class="eyebrow">The Portfolio</p>
+      <h2 class="display section-title">Focused verticals.</h2>
+      <div class="cards">
+        <a href="consulting.html" class="card">
+          <h3>Texas Movement Consulting</h3>
+          <p>Professional websites for attorneys and small law firms. Clear, credible, and built to convert inquiries.</p>
+          <span class="go">Explore Attorney Websites &rarr;</span>
+        </a>
+        <a href="#performance" class="card">
+          <h3>Texas Movement Performance</h3>
+          <p>Movement education and physical training grounded in practical, repeatable systems.</p>
+          <span class="go">Learn About Performance &rarr;</span>
+        </a>
+        <a href="#media" class="card">
+          <h3>Texas Movement Media</h3>
+          <p>Stories, interviews, and original publishing across digital platforms.</p>
+          <span class="go">Explore Media &rarr;</span>
+        </a>
+        <a href="#hero" class="card">
+          <h3>HERO Footwear</h3>
+          <p>The footwear vertical within Texas Movement International. Currently in development.</p>
+          <span class="go">View Status &rarr;</span>
+        </a>
+        <a href="#social" class="card">
+          <h3>Texas Movement Social</h3>
+          <p>Events, gatherings, and community initiatives, including the Gather project.</p>
+          <span class="go">Learn About Social &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARED APPROACH -->
+  <section class="section surface">
+    <div class="container">
+      <p class="eyebrow">Our Standards</p>
+      <h2 class="display section-title">How we operate.</h2>
+      <div class="cards">
+        <div class="card" style="cursor: default;">
+          <h3>Clear Thinking</h3>
+          <p>We strip away jargon and focus on the core problem. Every business has a distinct job to do.</p>
+        </div>
+        <div class="card" style="cursor: default;">
+          <h3>Credible Execution</h3>
+          <p>We build systems that work in the real world, not just in theory. Useful work over performative busywork.</p>
+        </div>
+        <div class="card" style="cursor: default;">
+          <h3>Long-Term Ownership</h3>
+          <p>We respect people, communities, and the craft. We build things meant to last and be handed over cleanly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section id="about" class="section">
+    <div class="container">
+      <div style="max-width: 700px;">
+        <p class="eyebrow">Leadership</p>
+        <h2 class="display section-title">Alexander Varghese Mathai</h2>
+        <p class="lead" style="margin-bottom: 24px;">Founder and 100% owner of Texas Movement International LLC.</p>
+        <p>Based in Chicago, Illinois, Alexander established Texas Movement International to build repeatable, well-run businesses that can eventually operate beyond his personal delivery. His background spans web development, systems design, and physical performance coaching.</p>
+        <p class="small" style="margin-top: 16px;">While the organization is founder-led, the goal of each vertical is to develop standardized processes that deliver consistent value, regardless of who is executing the work.</p>
+     .div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section surface">
+    <div class="container">
+      <p class="eyebrow">Get in Touch</p>
+      <h2 class="display section-title">Route your inquiry.</h2>
+      <p class="lead" style="margin-bottom: 32px;">Select the area you are interested in, and we will direct your message to the appropriate team.</p>
+      
+      <!-- NOTE: Replace 'YOUR_FORMSPREE_ENDPOINT' with a real Formspree or Netlify Forms endpoint -->
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" style="max-width: 600px;">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="organization">Business or Organization (Optional)</label>
+          <input type="text" id="organization" name="organization">
+        </div>
+        <div class="form-group">
+          <label for="interest">Area of Interest *</label>
+          <select id="interest" name="interest" required>
+            <option value="" disabled selected>Select an option...</option>
+            <option value="consulting">Attorney Website / Consulting</option>
+            <option value="performance">Performance</option>
+            <option value="media">Media</option>
+            <option value="hero">HERO Footwear</option>
+            <option value="social">Social / Gather</option>
+            <option value="general">General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Brief Message *</label>
+          <textarea id="message" name="message" required placeholder="Please do not include sensitive legal or personal information in this form."></textarea>
+        </div>
+        <button type="submit" class="btn">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="eyebrow" style="margin-bottom: 8px;">Texas Movement International LLC</p>
+      <p class="small">Chicago, Illinois<br>
+      <a href="mailto:lexmathai@gmail.com">lexmathai@gmail.com</a></p>
+    </div>
+    <div>
+      <p class="eyebrow" style="margin-bottom: 8px;">Navigation</p>
+      <p class="small"><a href="index.html">Home</a><br>
+      <a href="consulting.html">Consulting</a><br>
+      <a href="#contact">Contact</a></p>
+    </div>
+    <div>
+      <p class="eyebrow" style="margin-bottom: 8px;">Legal</p>
+      <p class="small">&copy; 2024 Texas Movement International LLC.<br>All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

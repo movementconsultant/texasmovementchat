@@ -27,21 +27,21 @@
 </header>
 
 <main>
-  <!-- A. HERO -->
+  <!-- HERO -->
   <section class="section surface">
     <div class="container">
       <p class="eyebrow">Chicago • Creators • Community</p>
       <h1 class="display section-title">Good conversations.<br>New connections. Chicago.</h1>
       <p class="lead" style="max-width: 650px;">Texas Movement Social is taking shape around people creating, building, and contributing across the city. Express interest in future gatherings, introductions, and opportunities to connect.</p>
-      <p class="small" style="margin-top: 16px; font-style: italic;">We’re starting small. Share your interests, and we may follow up when there is a relevant opportunity.</p>
+      <p class="small" style="margin-top: 16px; font-style: italic;">We are starting small. Share your interests, and we may follow up when there is a relevant opportunity.</p>
       <div class="actions">
         <a href="#interest-form" class="btn">Express Interest</a>
-        <a href="#propose" class="btn secondary">Propose a Gathering</a>
+        <a href="#interest-form" class="btn secondary">Propose a Gathering</a>
       </div>
     </div>
   </section>
 
-  <!-- B. WHAT WE'RE BUILDING -->
+  <!-- WHAT WE'RE BUILDING -->
   <section class="section">
     <div class="container">
       <p class="eyebrow">The Direction</p>
@@ -63,7 +63,7 @@
     </div>
   </section>
 
-  <!-- C. HOW SOCIAL CONNECTS TO MEDIA -->
+  <!-- MEDIA VS SOCIAL -->
   <section class="section surface">
     <div class="container">
       <p class="eyebrow">Two Initiatives, One Organization</p>
@@ -82,7 +82,7 @@
     </div>
   </section>
 
-  <!-- D. WHO IT'S FOR & E. FORMATS -->
+  <!-- WHO IT'S FOR & FORMATS -->
   <section class="section">
     <div class="container">
       <div style="max-width: 800px; margin: 0 auto;">
@@ -94,9 +94,9 @@
           <p class="eyebrow">Formats we’re exploring</p>
           <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 16px;">
             <li style="padding: 16px; background: var(--white); border: 2px solid var(--line);"><strong>Small creator and founder conversations.</strong> Intimate, focused discussions around a specific challenge or project.</li>
-            <li style="padding: 16px; background: var(--white); border: 2px solid var(--line);"><strong>Informal meetups.</strong> Low-pressure gatherings organized around a shared local interest or hobby.</li>
+            <li style="padding: 16px; background: var(--white); border: 2px solid var(--line);"><strong>Informal meetups.</strong> Low-pressure gatherings organized around a shared local interest.</li>
             <li style="padding: 16px; background: var(--white); border: 2px solid var(--line);"><strong>Media-adjacent gatherings.</strong> Optional, in-person extensions of a published Media conversation.</li>
-            <li style="padding: 16px; background: var(--white); border: 2px solid var(--line);"><strong>Participant-proposed collaborations.</strong> Spaces created by the community, for the community, with our logistical support.</li>
+            <li style="padding: 16px; background: var(--white); border: 2px solid var(--line);"><strong>Participant-proposed collaborations.</strong> Spaces created by the community, for the community, through community coordination.</li>
           </ul>
           <p class="small" style="margin-top: 16px; color: var(--mute);">* These are exploratory concepts, not a scheduled calendar of events.</p>
         </div>
@@ -104,15 +104,15 @@
     </div>
   </section>
 
-  <!-- F. INTEREST FORM -->
+  <!-- INTEREST FORM -->
   <section id="interest-form" class="section surface">
     <div class="container">
       <p class="eyebrow">Get Involved</p>
       <h2 class="display section-title">Express your interest.</h2>
-      <p class="lead" style="margin-bottom: 32px; max-width: 600px;">Tell us what you’re working on and how you’d like to connect. We review every submission.</p>
+      <p class="lead" style="margin-bottom: 32px; max-width: 600px;">Tell us what you’re working on and how you’d like to connect. Inquiries are reviewed as capacity allows.</p>
       
-      <!-- IMPORTANT: Replace YOUR_FORMSPREE_ENDPOINT with your actual Formspree or Netlify Forms endpoint -->
-      <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" style="max-width: 600px;">
+      <!-- TODO: Configure form backend (e.g., Formspree, Netlify Forms) before launch. Currently disabled. -->
+      <form action="#" method="POST" style="max-width: 600px;">
         <div class="form-group">
           <label for="name">Name *</label>
           <input type="text" id="name" name="name" required>
@@ -140,7 +140,7 @@
             <option value="gatherings">Future gatherings</option>
             <option value="meeting">Meeting other creators or founders</option>
             <option value="propose-collab">Proposing a collaboration</option>
-            <option value="propose-gathering" id="propose">Proposing a gathering</option>
+            <option value="propose-gathering">Proposing a gathering</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -151,19 +151,19 @@
         
         <div class="form-group" style="display: flex; gap: 12px; align-items: flex-start;">
           <input type="checkbox" id="consent-followup" name="consent_followup" required style="width: auto; margin-top: 4px;">
-          <label for="consent-followup" style="margin: 0; font-weight: 400; font-size: 0.9rem;">I give Texas Movement International permission to follow up with me regarding this inquiry. *</label>
+          <label for="consent-followup" style="margin: 0; font-weight: 400; font-size: 0.9rem;">Yes, please contact me regarding this inquiry. *</label>
         </div>
         <div class="form-group" style="display: flex; gap: 12px; align-items: flex-start;">
           <input type="checkbox" id="consent-updates" name="consent_updates" style="width: auto; margin-top: 4px;">
-          <label for="consent-updates" style="margin: 0; font-weight: 400; font-size: 0.9rem;">Optional: Keep me updated on future Texas Movement Social opportunities. (Not pre-selected, separate from Media updates).</label>
+          <label for="consent-updates" style="margin: 0; font-weight: 400; font-size: 0.9rem;">Optional: Send me occasional updates about Texas Movement Social opportunities.</label>
         </div>
 
-        <button type="submit" class="btn" style="margin-top: 16px;">Send My Interest</button>
+        <button type="submit" class="btn" style="margin-top: 16px; opacity: 0.6; cursor: not-allowed;" disabled>Send Inquiry (Configuration Pending)</button>
       </form>
     </div>
   </section>
 
-  <!-- G. FAQ -->
+  <!-- FAQ -->
   <section class="section">
     <div class="container">
       <p class="eyebrow">Questions</p>
@@ -175,7 +175,7 @@
         </div>
         <div>
           <h3 style="font: 700 1.1rem var(--head); margin: 0 0 8px;">Are there upcoming events?</h3>
-          <p style="margin: 0;">No gatherings are currently announced here. You can express interest in future opportunities, and we will reach out when practical arrangements come together.</p>
+          <p style="margin: 0;">No gatherings are currently announced. You can express interest in future opportunities, and we will reach out when practical arrangements come together.</p>
         </div>
         <div>
           <h3 style="font: 700 1.1rem var(--head); margin: 0 0 8px;">Do I need a large social following?</h3>
@@ -191,153 +191,41 @@
         </div>
         <div>
           <h3 style="font: 700 1.1rem var(--head); margin: 0 0 8px;">Can I propose a gathering?</h3>
-          <p style="margin: 0;">Yes. Use the form to share your idea, intended audience, and what you could contribute. Please note that a proposal is not a confirmed partnership or guaranteed event.</p>
+          <p style="margin: 0;">Yes. Use the form to share your idea, intended audience, and what you could contribute. A proposal is not a confirmed partnership or guaranteed event.</p>
         </div>
-     8. Gather (Internal Note)
-==================================================
-Gather has been mentioned in connection with Social, but its current scope and status are unconfirmed.
+      </div>
+    </div>
+  </section>
 
-For this version:
-- Do not create a separate Gather platform.
-- Do not invent wedding, ceremony, ticketing, or community-management functionality.
-- Do not add Gather to the main navigation.
-- Leave a clearly documented internal option for adding it later after owner approval.
+  <!-- PARENT CONNECTION -->
+  <section class="section surface" style="text-align: center; padding: 48px 0;">
+    <div class="container">
+      <p class="small" style="margin: 0;">Texas Movement Social is an initiative of <strong>Texas Movement International LLC</strong>, based in Chicago, Illinois.</p>
+    </div>
+  </section>
+</main>
 
-==================================================
-10. VISUAL DIRECTION
-==================================================
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="eyebrow" style="margin-bottom: 8px;">Texas Movement International LLC</p>
+      <p class="small">Chicago, Illinois<br>
+      <a href="mailto:lexmathai@gmail.com">lexmathai@gmail.com</a><br>
+      <a href="tel:+18722102505">+1 (872) 210-2505</a></p>
+    </div>
+    <div>
+      <p class="eyebrow" style="margin-bottom: 8px;">Navigation</p>
+      <p class="small"><a href="index.html">Home</a><br>
+      <a href="consulting.html">Consulting</a><br>
+      <a href="media.html">Media</a><br>
+      <a href="index.html#contact">Contact</a></p>
+    </div>
+    <div>
+      <p class="eyebrow" style="margin-bottom: 8px;">Legal</p>
+      <p class="small">&copy; 2024 Texas Movement International LLC.<br>All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
-The page should feel:
-- Human.
-- Contemporary.
-- Chicago-rooted.
-- Welcoming.
-- Organized.
-- Editorial rather than corporate.
-
-Use:
-- Strong typography.
-- Generous spacing.
-- A restrained accent color.
-- Clear calls to action.
-- Subtle motion only when useful.
-- Excellent mobile layouts.
-
-Maintain the parent website’s shared identity.
-Allow Social a slightly warmer expression without making it look unrelated.
-
-Use authentic event or participant photography only when supplied and authorized.
-
-Do not use:
-- Stock crowd photos that imply actual TMI attendance.
-- Fake member avatars.
-- Creator logos without permission.
-- Fabricated testimonials.
-- Fake activity feeds.
-- Decorative maps showing nonexistent members.
-- Influencer-style luxury imagery.
-- Counters showing invented community size.
-
-If authentic imagery is unavailable, create a strong typography-led design.
-
-==================================================
-11. TECHNICAL REQUIREMENTS
-==================================================
-
-- Inspect and reuse the existing stack.
-- Do not add paid dependencies.
-- Reuse parent navigation, footer, typography, and components.
-- Use semantic HTML and responsive layouts.
-- Include accessible labels, visible keyboard focus, and appropriate contrast.
-- Respect reduced-motion preferences.
-- Provide meaningful page title and metadata.
-- Do not add structured data for events that do not exist.
-
-Suggested metadata:
-Title:
-Texas Movement Social | Chicago Connections & Gatherings
-
-Description:
-An emerging Chicago-based initiative connecting creators, founders, and independent professionals through conversations and future gatherings.
-
-Routing:
-- If the parent site uses vertical overview pages, use /businesses/social.
-- If there is an existing functioning Social destination, assess it before replacing or duplicating it.
-- Choose one canonical destination.
-- Do not fabricate subdomain availability or deploy changes without permission.
-
-Forms:
-- Reuse a working backend if available.
-- Validate submissions.
-- Add proportionate spam protection.
-- Never simulate a successful submission.
-- If no backend exists, document the required configuration and do not leave an apparently functional form that discards submissions.
-- Do not invent an email address.
-- Do not publish submitted personal information.
-
-Analytics:
-Do not add new tracking tools without approval.
-If existing approved analytics are available, measure:
-- Interest-form starts.
-- Successful submissions.
-- Inquiry category.
-- Clicks to Media.
-Do not collect unnecessary personal data.
-
-==================================================
-12. DELIVERABLES
-==================================================
-
-Deliver:
-
-1. A brief explanation of Social’s role and how it differs from Media.
-2. A concise fact-versus-assumption checklist.
-3. The complete page copy.
-4. The responsive implementation.
-5. Form configuration notes.
-6. A launch checklist.
-7. A short list of owner approvals still needed.
-
-Keep internal notes and unconfirmed claims out of public-facing copy.
-
-Do not:
-- Publish the page.
-- Contact creators.
-- Create events.
-- Purchase tools.
-- Change external accounts.
-without explicit approval.
-
-Success criteria:
-A visitor understands what Social is within the first screen.
-The page is useful today even without scheduled events.
-Interest can be expressed without implying membership or guaranteed access.
-Media and Social reinforce one another without confusing coverage, participation, and consent.
-</think>
-
-Here is the complete, implementation-ready package for the **Texas Movement Social** page, built exactly to your strategic, copy, and technical specifications.
-
----
-
-### 1. Social’s Role vs. Media (Brief Explanation)
-**Texas Movement Media** is the *publication*. Its job is to discover the work, tell the story, and publish original content (like PRO TALKS).  
-**Texas Movement Social** is the *community initiative*. Its job is to facilitate introductions, conversations, and small gatherings.  
-*The boundary:* A person can participate in Social without ever being interviewed or filmed for Media. Media introduces people to the organization; Social offers a separate, optional opportunity to connect in person or collaboratively.
-
----
-
-### 2. Fact vs. Assumption Checklist
-**Confirmed Facts:**
-- Parent organization: Texas Movement International LLC (Founder: Alexander Varghese Mathai, Chicago, IL).
-- Current activity: Texas Movement Media is actively reaching out to Chicago-based creators.
-- Goal: Collect genuine expressions of interest for future, small-scale gatherings and connections.
-
-**Placeholders / Requires Configuration:**
-- The form `action` attribute currently points to `https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT`. This must be replaced with a real endpoint before launch.
-- No specific events, dates, venues, or guest lists are mentioned or implied.
-
----
-
-### 3. & 4. Complete Page Copy & Responsive Implementation (`social.html`)
-
-Create a new file named `social.html` in your GitHub repository and paste this exact code. It reuses your existing `style.css` for a seamless, editorial, and mobile-responsive experience.
+</body>
+</html>

@@ -11,49 +11,35 @@ window.TMI_KNOWLEDGE = {
       id: "overview",
       title: "Texas Movement International",
       keywords: ["texas movement","tmi","company","overview","about","holding","divisions","verticals","what is","who"],
-      answer: "Texas Movement International LLC is a multi-division company founded by Alexander Varghese Mathai. We build AI-powered chatbots and websites for attorneys, alumni associations, and small businesses. Our solutions help organizations communicate clearly, automate routine inquiries, and build trust with their audiences.",
+      answer: "Texas Movement International LLC is a multi-division company founded by Alexander Varghese Mathai. We operate distinct businesses in professional websites, physical performance, media, footwear, and community, all sharing a commitment to clear thinking and credible execution.",
       links: []
     },
     {
-      id: "chatbot-service",
-      title: "AI Chatbot Service",
-      keywords: ["chatbot","ai","artificial intelligence","automated","bot","assistant","virtual","24/7","always available","inquiries","questions","faq"],
-      answer: "We build custom AI chatbots that answer visitor questions 24/7 using only approved information. The chatbot is trained on your specific content — practice areas, team bios, case studies, alumni networks, events — and never invents information. Perfect for law firms, alumni associations, and professional organizations that need consistent, accurate communication.",
-      links: []
-    },
-    {
-      id: "attorneys",
-      title: "Chatbots for Attorneys",
-      keywords: ["attorney","lawyer","law firm","legal","practice","case","client","intake","consultation","retainer","bar","jurisdiction","specialty"],
-      answer: "Our chatbots help law firms automate routine client inquiries: practice area questions, attorney bios, office locations, consultation scheduling, and general legal information. The chatbot is trained on your firm's approved content and never provides legal advice — it directs visitors to contact you for case-specific guidance. This reduces administrative overhead and ensures consistent messaging.",
-      links: []
-    },
-    {
-      id: "alumni",
-      title: "Chatbots for Alumni Associations",
-      keywords: ["alumni","association","university","college","school","graduates","network","reunion","chapter","membership","donation","fundraising","events"],
-      answer: "Our chatbots help alumni associations engage graduates: chapter information, event schedules, reunion details, membership benefits, donation opportunities, and networking resources. The chatbot provides instant answers to common questions, reducing staff workload and improving member engagement. Perfect for universities, fraternities, sororities, and professional organizations.",
-      links: []
+      id: "consulting",
+      title: "Texas Movement Consulting",
+      keywords: ["consulting","website","websites","web design","attorney","law firm","legal","build a site","small business"],
+      answer: "Texas Movement Consulting builds professional, mobile-friendly websites for solo attorneys and small law firms. We offer transparent, one-time pricing ($1,000–$1,500) with a clear process: Diagnose, Build, and Hand Over, so you own the finished system.",
+      links: [{ label: "Explore Attorney Websites", href: "consulting.html" }]
     },
     {
       id: "process",
       title: "How We Work",
       keywords: ["process","how","work","engagement","phases","diagnose","build","hand over","timeline","deliverables","methodology"],
-      answer: "Three phases. Phase 1 — Diagnose: We audit your current website, identify common visitor questions, and map your approved content. Phase 2 — Build: We create a custom chatbot trained on your specific information, integrate it with your website, and test it thoroughly. Phase 3 — Hand Over: We transfer documentation and credentials so you control the chatbot and can update content as needed.",
+      answer: "Our consulting engagements follow three phases. Phase 1 — Diagnose: We audit your goals and current site. Phase 2 — Build: We design and develop with clarity and credibility as the priority. Phase 3 — Hand Over: We transfer documentation and credentials so you control the site.",
       links: []
     },
     {
       id: "pricing",
       title: "Pricing",
       keywords: ["price","pricing","cost","fee","budget","investment","quote","estimate","affordable","expensive","cheap"],
-      answer: "Pricing depends on the complexity of your content and the number of topics the chatbot needs to cover. We provide a custom quote after reviewing your requirements. Contact us at lexmathai@gmail.com to discuss your project.",
-      links: [{ label: "Email for pricing", href: "mailto:lexmathai@gmail.com?subject=Pricing%20inquiry" }]
+      answer: "For attorney websites, we offer two transparent packages: Essential ($1,000 for up to 4 pages) and Expanded ($1,500 for up to 6 pages). These are one-time build fees. Domain registration, hosting, and ongoing maintenance are separate. Contact us for a custom quote.",
+      links: [{ label: "View Pricing Details", href: "consulting.html#pricing" }]
     },
     {
       id: "portfolio",
       title: "Portfolio",
       keywords: ["portfolio","examples","clients","work","case study","past projects","proof","sankofa","diamond k","diamondk"],
-      answer: "Our portfolio includes SankofaLawGroup.com (law firm), DiamondKBeauty.com (e-commerce), and AlexanderMathai.com (personal brand). Each project demonstrates our ability to build custom solutions that meet specific organizational needs.",
+      answer: "Our published consulting work includes SankofaLawGroup.com, DiamondKBeauty.com, and AlexanderMathai.com. Each project demonstrates our ability to build custom solutions that meet specific organizational needs.",
       links: [
         { label: "SankofaLawGroup.com", href: "https://sankofalawgroup.com" },
         { label: "DiamondKBeauty.com", href: "https://diamondkbeauty.com" },
@@ -61,31 +47,45 @@ window.TMI_KNOWLEDGE = {
       ]
     },
     {
-      id: "technology",
-      title: "Technology",
-      keywords: ["technology","tech","platform","hosting","security","privacy","data","gdpr","compliance","reliable","uptime"],
-      answer: "Our chatbots run on GitHub Pages with zero backend infrastructure, meaning no server costs, no maintenance, and no downtime. All processing happens in the visitor's browser — no data is sent to external servers, ensuring complete privacy. The chatbot uses keyword matching against your approved content, guaranteeing 100% accuracy with zero hallucination risk.",
-      links: []
+      id: "media",
+      title: "Texas Movement Media",
+      keywords: ["media","youtube","tiktok","instagram","video","videos","content","film","films","miniseries","feature","playlist","playlists","watch","pro talks","publication","editorial","creator"],
+      answer: "Texas Movement Media is a creator-led publication covering people building influence through their work in sport, business, and culture. We explore how people turn skill, conviction, and community into something that matters. Our flagship series, PRO TALKS, features focused conversations about how the work actually gets done.",
+      links: [{ label: "Explore Media", href: "media.html" }]
     },
     {
-      id: "benefits",
-      title: "Benefits",
-      keywords: ["benefits","advantages","why","value","roi","return","improvement","results","outcomes"],
-      answer: "Benefits include: 24/7 availability (visitors get instant answers anytime), consistent messaging (every visitor receives the same accurate information), reduced administrative overhead (staff spend less time answering routine questions), improved user experience (visitors find information quickly), and enhanced credibility (professional, responsive communication).",
-      links: []
+      id: "media-production",
+      title: "Media Production Services",
+      keywords: ["hire","production","edit","editing","sponsor","sponsorship","featured","guest","pitch","collaborate","service"],
+      answer: "Texas Movement Media maintains strict separation between three lanes: 1) Editorial Publishing (we select stories for our audience), 2) Creator Production (paid services for focused recording, editing, and short-form assets), and 3) Sponsored Programming (clearly labeled, funded content). We do not sell editorial features as independent endorsements.",
+      links: [{ label: "Collaboration Options", href: "media.html#collaborate" }]
+    },
+    {
+      id: "performance",
+      title: "Texas Movement Performance",
+      keywords: ["performance","coaching","coach","athlete","athletic","training","executive","elite secrets","course","udemy","seminar","seminars","clinic","speed"],
+      answer: "Texas Movement Performance is athletic coaching built on the Elite Secrets course, available on Udemy. For coaching seminars, contact Alexander Mathai directly.",
+      links: [{ label: "View Performance", href: "performance.html" }]
+    },
+    {
+      id: "hero",
+      title: "HERO by Texas Movement",
+      keywords: ["hero","apparel","clothing","shoes","footwear","spikes","track","field","gear","shop","store","merch","buy"],
+      answer: "HERO by Texas Movement is the apparel and track and field footwear division within Texas Movement International. It is currently in development.",
+      links: [{ label: "HERO page", href: "hero.html" }]
     },
     {
       id: "founder",
       title: "Founder",
       keywords: ["founder","owner","alexander","mathai","who runs","who founded","background","engineer","experience"],
-      answer: "Texas Movement International was founded by Alexander Varghese Mathai, an engineer with expertise in web development, AI integration, and systems design. Alexander has built websites and chatbots for law firms, e-commerce brands, and professional organizations, focusing on clarity, credibility, and user experience.",
+      answer: "Texas Movement International was founded by Alexander Varghese Mathai, based in Chicago, Illinois. His background spans web development, systems design, and physical performance coaching, with a focus on building repeatable, well-run businesses.",
       links: [{ label: "AlexanderMathai.com", href: "https://alexandermathai.com" }]
     },
     {
       id: "contact",
       title: "Contact",
       keywords: ["contact","email","reach","phone","call","get in touch","talk to","hire","inquiry","enquiry","start a project","schedule"],
-      answer: "You can reach Texas Movement by email at lexmathai@gmail.com or by phone at +1 (872) 210-2505. We respond to all inquiries within 24 hours.",
+      answer: "You can reach Texas Movement by email at lexmathai@gmail.com or by phone at +1 (872) 210-2505. Please use the contact form on our website to route your inquiry to the appropriate division.",
       links: [{ label: "Email Texas Movement", href: "mailto:lexmathai@gmail.com" }]
     },
     {
@@ -97,17 +97,3 @@ window.TMI_KNOWLEDGE = {
     }
   ]
 };
-    {
-      id: "media",
-      title: "Texas Movement Media",
-      keywords: ["media","youtube","tiktok","instagram","video","videos","content","film","films","miniseries","feature","playlist","playlists","watch","pro talks","publication","editorial","creator"],
-      answer: "Texas Movement Media is a creator-led publication covering people building influence through their work in sport, business, and culture. We explore how people turn skill, conviction, and community into something that matters. Our flagship series, PRO TALKS, features focused, 20-35 minute conversations about how the work actually gets done.",
-      links: [{ label: "Explore Media", href: "media.html" }]
-    },
-    {
-      id: "media-production",
-      title: "Media Production Services",
-      keywords: ["hire","production","edit","editing","sponsor","sponsorship","featured","guest","pitch","collaborate","service"],
-      answer: "Texas Movement Media maintains strict separation between three lanes: 1) Editorial Publishing (we select stories for our audience, providing guests with clips and graphics), 2) Creator Production (paid services for focused recording, editing, and short-form assets), and 3) Sponsored Programming (clearly labeled, funded content). We do not sell editorial features as independent endorsements.",
-      links: [{ label: "Collaboration Options", href: "media.html#collaborate" }]
-    },

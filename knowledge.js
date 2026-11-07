@@ -97,3 +97,17 @@ window.TMI_KNOWLEDGE = {
     }
   ]
 };
+    {
+      id: "media",
+      title: "Texas Movement Media",
+      keywords: ["media","youtube","tiktok","instagram","video","videos","content","film","films","miniseries","feature","playlist","playlists","watch","pro talks","publication","editorial","creator"],
+      answer: "Texas Movement Media is a creator-led publication covering people building influence through their work in sport, business, and culture. We explore how people turn skill, conviction, and community into something that matters. Our flagship series, PRO TALKS, features focused, 20-35 minute conversations about how the work actually gets done.",
+      links: [{ label: "Explore Media", href: "media.html" }]
+    },
+    {
+      id: "media-production",
+      title: "Media Production Services",
+      keywords: ["hire","production","edit","editing","sponsor","sponsorship","featured","guest","pitch","collaborate","service"],
+      answer: "Texas Movement Media maintains strict separation between three lanes: 1) Editorial Publishing (we select stories for our audience, providing guests with clips and graphics), 2) Creator Production (paid services for focused recording, editing, and short-form assets), and 3) Sponsored Programming (clearly labeled, funded content). We do not sell editorial features as independent endorsements.",
+      links: [{ label: "Collaboration Options", href: "media.html#collaborate" }]
+    },
